@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+#root {
+  width: 90%;
+  max-width: 250rem;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: white;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}
+
+:root {
+  --header-color: #1d415e;
+  --footer-color: #5d4e1c;
+  --header-button-color: #67d7f8;
+  --header-button-hover-color: #3f9cbf;
+  --app-button-color: #415150;
+  --cart-color:#bdd3dd;
+  --cart-button-color: #5a6257;
+  --cart-button-hover-color: #3e4c4b;
+}
+
+

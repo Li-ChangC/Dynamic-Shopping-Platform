@@ -1,0 +1,43 @@
+.header {
+  background-color: #1d415e;
+  border-radius: 0.4rem;
+  padding: 0.25rem;
+  min-height: 4rem;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__title {
+  position: absolute;
+  color: white;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  margin: 0;
+}
+
+.footer {
+  background-color: #5d4e1c;
+  color: white;
+  border-radius: 0.4rem;
+  padding: 0.25rem;
+  margin-top: 2rem;
+}
+
+.footer__privacy {
+  text-align: center;
+}
+
+.main {
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  gap: 1rem;
+  max-height: 50rem;
+}

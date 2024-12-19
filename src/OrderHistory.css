@@ -1,0 +1,51 @@
+.order-history-list {
+    list-style: none;
+    padding: 0;
+    flex-grow: 1; 
+    overflow-y: auto;
+}
+
+.order-history-item {
+    margin-bottom: 0.6rem;
+    border: 0.06rem solid #ddd;
+    border-radius: 0.3rem;
+    padding: 0.6rem;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.order-history-item:hover {
+    background-color: #f1f1f1;
+}
+
+.order-summary {
+    font-weight: bold;
+    color: #333;
+}
+
+.selected-order {
+    margin-top: 0.6rem;
+    padding: 0.6rem;
+    background-color: #eefaf5;
+    border: 0.06rem solid #d4edda;
+    border-radius: 0.3rem;
+    transition: all 0.3s ease-in-out;
+    max-height: 20rem; 
+    overflow-y: auto; 
+    overflow-x: hidden; 
+}
+
+.selected-order ul {
+    list-style: none;
+    padding: 0;
+}
+
+.selected-order li {
+    padding: 0.3rem 0;
+}
+
+.selected-order li span {
+    display: inline-block;
+    margin-right: 0.625rem;
+}

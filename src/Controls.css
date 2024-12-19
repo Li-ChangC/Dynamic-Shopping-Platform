@@ -1,0 +1,24 @@
+.controls {
+    margin-left: auto;
+    margin-right: 1rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.controls button {
+    width: 6rem;
+    padding: 0.65rem;
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #0d2e45;
+    background-color: #67d7f8;
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.controls button:hover {
+    background-color: #3f9cbf;
+}
