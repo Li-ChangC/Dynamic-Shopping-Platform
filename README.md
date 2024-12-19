@@ -1,4 +1,5 @@
 # **Project Name**
+Dynamic Shopping Platform
 
 ## **Description**
 This project is a web-based application for managing a shopping cart and viewing detailed order history. It supports both regular users and administrators. Key features include:
